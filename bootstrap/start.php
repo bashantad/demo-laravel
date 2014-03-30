@@ -25,9 +25,7 @@ $app = new Illuminate\Foundation\Application;
 */
 
 $env = $app->detectEnvironment(array(
-
-	'local' => array('your-machine-name'),
-
+	'development' => array('bashanta-17595477.local')
 ));
 
 /*
