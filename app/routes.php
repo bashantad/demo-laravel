@@ -15,5 +15,5 @@ Route::resource('posts', "PostsController");
 
 Route::get('/', function()
 {
-	return Redirect::to('posts');
+	return View::make("welcome");
 });
