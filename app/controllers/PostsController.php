@@ -7,10 +7,12 @@ class PostsController extends \BaseController {
 	 *
 	 * @return Response
 	 */
+	protected $layout = 'layouts.master';
+	
 	public function index()
 	{
 		$posts = Post::all();
-		return View::make('posts.index')->with('posts', $posts);
+		$this->layout->content = View::make('posts.index')->with('posts', $posts);
 	}
 
 	/**

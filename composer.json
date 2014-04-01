@@ -19,6 +19,9 @@
 	"require-dev": {
     	"way/generators": "2.6"
 	},
+	"require": {
+    	"gargron/fileupload": "1.0.*"
+  	},
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
