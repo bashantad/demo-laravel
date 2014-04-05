@@ -4,7 +4,10 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.1.*"
+		"laravel/framework": "4.1.*",
+		"codesleeve/asset-pipeline": "dev-master",
+		"blueimp/jquery-file-upload": "9.5.7",
+		"twitter/bootstrap": "3.0.*@dev"
 	},
 	"autoload": {
 		"classmap": [
@@ -17,11 +20,9 @@
 		]
 	},
 	"require-dev": {
-    	"way/generators": "2.6"
+    	"way/generators": "2.6",
+    	"darsain/laravel-console": "dev-master"
 	},
-	"require": {
-    	"gargron/fileupload": "1.0.*"
-  	},
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",

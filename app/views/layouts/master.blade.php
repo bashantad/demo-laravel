@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Online resource portal</title>
-	<link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+      <?= stylesheet_link_tag() ?>
+      <?= javascript_include_tag() ?>
 </head>
 <body>
 	 @section('sidebar')

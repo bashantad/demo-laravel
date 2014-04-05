@@ -106,7 +106,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'Way\Generators\GeneratorsServiceProvider'
+		'Way\Generators\GeneratorsServiceProvider',
+		'Darsain\Console\ConsoleServiceProvider',
+		'Codesleeve\AssetPipeline\AssetPipelineServiceProvider'
 	),
 
 	/*
