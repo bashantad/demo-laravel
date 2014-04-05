@@ -12,4 +12,5 @@
 //
 //= require jquery
 //= require bootstrap.min
+//= require custom
 //= require_tree .

@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+@extends('layouts.master')
+@section('content')
 <div class="row">
 	<div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
 	<h1>Create a post</h1>
@@ -22,3 +23,4 @@
 
 	{{ Form::close() }}
 </div>
+@stop

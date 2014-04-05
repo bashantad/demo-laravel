@@ -7,7 +7,8 @@
 		"laravel/framework": "4.1.*",
 		"codesleeve/asset-pipeline": "dev-master",
 		"blueimp/jquery-file-upload": "9.5.7",
-		"twitter/bootstrap": "3.0.*@dev"
+		"twitter/bootstrap": "3.0.*@dev",
+		"fortawesome/font-awesome": "dev-4.0.4-wip"
 	},
 	"autoload": {
 		"classmap": [
